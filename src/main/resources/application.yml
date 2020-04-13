@@ -40,11 +40,13 @@ spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
 #    url: jdbc:mariadb://localhost:3306/egovuser
-    url: jdbc:mariadb://10.160.151.181:3306/egovuser
-    username: EGOV
-    password: Hellomaria1!
+#    url: jdbc:mariadb://10.160.151.181:3306/egovuser
+    url: jdbc:mariadb://192.168.33.20:3306/EGOVUSER
+    username: egovdev
+    password: Helloegov1!
 server:
-  port: 9081
+#  port: 9082
+  port: 9082
   task:
     fixedDelay: 1000
     name: mariaTask
